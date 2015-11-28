@@ -16,7 +16,7 @@ public class Canvas extends javax.swing.JPanel {
         initComponents();
         
         try {
-            this.imagemFundo = ImageIO.read(new File("D:\\Users\\Maicon\\Documents\\NetBeansProjects\\MinionAutomato\\imgMenu.jpg"));
+            this.imagemFundo = ImageIO.read(new File("src\\imagens\\imgMenu.jpg"));
         } catch (IOException ex) {
             Logger.getLogger(Canvas.class.getName()).log(Level.SEVERE, null, ex);
         }
