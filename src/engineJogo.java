@@ -1,4 +1,6 @@
+
 public class engineJogo {
-    int mapa[][] = new int[5][5];
-    
+
+    int mapa[][] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+
 }

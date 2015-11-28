@@ -9,12 +9,12 @@ import java.util.logging.Logger;
 import javax.imageio.ImageIO;
 
 public class Canvas extends javax.swing.JPanel {
-    
+
     BufferedImage imagemFundo;
 
     public Canvas() {
         initComponents();
-        
+
         try {
             this.imagemFundo = ImageIO.read(new File("src\\imagens\\imgMenu.jpg"));
         } catch (IOException ex) {
