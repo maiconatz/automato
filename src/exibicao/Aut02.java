@@ -2,12 +2,12 @@ package exibicao;
 
 import java.awt.Color;
 
-public class Aut01 extends javax.swing.JFrame {
+public class Aut02 extends javax.swing.JFrame {
 
-    public Aut01() {
+    public Aut02() {
         initComponents();
-        Can01 can01 = new Can01();
-        this.jPanel1.add(can01);
+        Can02 can02 = new Can02();
+        this.jPanel1.add(can02);
         getContentPane().setBackground(Color.BLACK);
     }
 
@@ -98,9 +98,7 @@ public class Aut01 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnBaixoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBaixoActionPerformed
-        Aut02 aut02 = new Aut02();
-        aut02.setVisible(true);
-        this.setVisible(false);
+
     }//GEN-LAST:event_btnBaixoActionPerformed
 
     private void btnEsquerdaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEsquerdaActionPerformed
@@ -128,19 +126,20 @@ public class Aut01 extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Aut01.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Aut02.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Aut01.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Aut02.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Aut01.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Aut02.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Aut01.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Aut02.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Aut01().setVisible(true);
+                new Aut02().setVisible(true);
             }
         });
     }
