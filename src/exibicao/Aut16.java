@@ -2,12 +2,12 @@ package exibicao;
 
 import java.awt.Color;
 
-public class Aut14 extends javax.swing.JFrame {
+public class Aut16 extends javax.swing.JFrame {
 
-    public Aut14() {
+    public Aut16() {
         initComponents();
-        Can14 can14 = new Can14();
-        this.jPanel1.add(can14);
+        Can16 can16 = new Can16();
+        this.jPanel1.add(can16);
         getContentPane().setBackground(Color.BLACK);
     }
 
@@ -102,19 +102,17 @@ public class Aut14 extends javax.swing.JFrame {
     }//GEN-LAST:event_btnBaixoActionPerformed
 
     private void btnEsquerdaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEsquerdaActionPerformed
-        Aut15 aut15 = new Aut15();
-        aut15.setVisible(true);
-        this.setVisible(false);
+
     }//GEN-LAST:event_btnEsquerdaActionPerformed
 
     private void btnCimaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCimaActionPerformed
-
+        Aut15 aut15 = new Aut15();
+        aut15.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_btnCimaActionPerformed
 
     private void btnDireitaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDireitaActionPerformed
-        Aut01 aut01 = new Aut01();
-        aut01.setVisible(true);
-        this.setVisible(false);
+
     }//GEN-LAST:event_btnDireitaActionPerformed
 
     public static void main(String args[]) {
@@ -130,20 +128,26 @@ public class Aut14 extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Aut14.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Aut16.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Aut14.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Aut16.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Aut14.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Aut16.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Aut14.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Aut16.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
 
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Aut14().setVisible(true);
+                new Aut16().setVisible(true);
             }
         });
     }
