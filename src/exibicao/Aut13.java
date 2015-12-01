@@ -10,7 +10,7 @@ public class Aut13 extends javax.swing.JFrame {
         Can13 can13 = new Can13();
         this.jPanel2.add(can13);
         getContentPane().setBackground(Color.BLACK);
-        JOptionPane.showMessageDialog("s", this);
+        JOptionPane.showMessageDialog(can13,"Você chegou no Estado Final.\nAgora voce pode fazer o caminho inverso. =D","Parabens!",JOptionPane.PLAIN_MESSAGE);
     }
 
     @SuppressWarnings("unchecked")
@@ -108,7 +108,9 @@ public class Aut13 extends javax.swing.JFrame {
     }//GEN-LAST:event_btnEsquerdaActionPerformed
 
     private void btnCimaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCimaActionPerformed
-
+        Aut12 aut12 = new Aut12();
+        aut12.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_btnCimaActionPerformed
 
     private void btnDireitaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDireitaActionPerformed
